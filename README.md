@@ -49,14 +49,12 @@ search-engine/
 ### ✅ Run Locally
 
 1. *Install dependencies:*
-
-   bash
+   
    pip install -r requirements.txt
    
 
-2. *Start the Flask app:*
+3. *Start the Flask app:*
 
-   bash
    python database.py
    python app.py
    
@@ -70,13 +68,11 @@ search-engine/
 
 1. *Build Docker image:*
 
-   bash
    docker build -t search-engine .
    
 
 2. *Run container:*
 
-   bash
    docker run -p 5000:5000 search-engine
    
 
@@ -86,13 +82,12 @@ search-engine/
 
 1. *Start services:*
 
-   bash
    docker-compose up
    
 
 2. *Access the app at:*
    
-   [http://localhost:5000](http://localhost:5000)
+   (http://localhost:5000)
 
 ---
 
